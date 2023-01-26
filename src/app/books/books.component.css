@@ -1,0 +1,83 @@
+.example-form {
+  min-width: 150px;
+  max-width: 500px;
+  width: 100%;
+}
+
+.example-full-width {
+  width: 100%;
+}
+
+section {
+  display: table;
+}
+
+.example-label {
+  display: table-cell;
+  font-size: 14px;
+  margin-left: 8px;
+  min-width: 120px;
+}
+
+.example-button-row {
+  display: table-cell;
+  max-width: 600px;
+}
+
+.example-button-row .mat-mdc-button-base {
+  margin: 8px 8px 8px 0;
+}
+
+.example-flex-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.example-button-container {
+  display: flex;
+  justify-content: center;
+  width: 120px;
+}
+
+.coverImage {
+  min-height: 90px;
+}
+
+@media (min-width: 960px) {
+  .coverImage {
+      min-height: 196px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .coverImage {
+      min-height: 159px;
+  }
+}
+
+@media (min-width: 1200px) {
+  /* .coverImage {
+      min-height: 154px;
+  } */
+}.coverImage {
+    min-height: 90px;
+}
+
+@media (min-width: 960px) {
+    .coverImage {
+        min-height: 196px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .coverImage {
+        min-height: 159px;
+    }
+}
+
+@media (min-width: 1200px) {
+    /* .coverImage {
+        min-height: 154px;
+    } */
+}
